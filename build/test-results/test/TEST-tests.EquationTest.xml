@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.EquationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-10-21T17:39:04" hostname="DESKTOP-OH2EBC8" time="0.012">
-  <properties/>
-  <testcase name="test0" classname="tests.EquationTest" time="0.011"/>
-  <testcase name="test1" classname="tests.EquationTest" time="0.0"/>
-  <testcase name="test2" classname="tests.EquationTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

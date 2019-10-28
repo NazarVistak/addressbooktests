@@ -3,6 +3,9 @@ package appmanager;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.BrowserType;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -14,9 +17,24 @@ public class ApplicationManager {
   private  GroupHelper groupHelper;
   JavascriptExecutor js;
   private Map<String, Object> vars;
+  private String browser;
+
+  public ApplicationManager(String browser) {
+
+    this.browser = browser;
+  }
 
   public void init() {
-    driver = new ChromeDriver();
+
+    if (browser.equals(BrowserType.CHROME)){
+      driver = new ChromeDriver();
+    } else if (browser.equals(BrowserType.FIREFOX)){
+      driver = new FirefoxDriver();
+    } else if (browser.equals(BrowserType.IE)){
+      driver = new InternetExplorerDriver();
+    }
+
+
     js = (JavascriptExecutor) driver;
     vars = new HashMap<String, Object>();
     driver.get("http://localhost/");

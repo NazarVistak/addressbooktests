@@ -8,7 +8,7 @@ public class CreateGroup extends TestBase{
 
     app.getNavigationHelper().groupsOpening();
     app.getGroupHelper().createGroupClick();
-    app.getGroupHelper().fillingGroupName("test");
+    app.getGroupHelper().fillingGroupName(null);
     app.getGroupHelper().submitGroupCreation();
     app.getGroupHelper().returnToGroupPage();
   }
