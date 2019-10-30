@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="242831aa-6a23-43e9-b44e-68c294839261" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appmanager/ApplicationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appmanager/ContactHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/appmanager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appmanager/HelperBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/CreateContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreateContact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/ModificateContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ModificateContact.java" afterDir="false" />
     </list>
