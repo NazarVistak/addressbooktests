@@ -15,7 +15,10 @@ public class ContactHelper extends HelperBase {
     click(By.linkText("add new"));
   }
   public void ReturnToHomePage() {
-    click(By.linkText("home page"));
+    if (isElementPresent(By.name("maintable"))){
+      return;
+    }
+    click(By.linkText("home"));
   }
 
  public void FillAllRequiredFields(String name,String name2,String name3,String name4,String group, boolean creation) {
@@ -40,9 +43,7 @@ public class ContactHelper extends HelperBase {
   public void UpdateContactCreationClick(){
     click(By.name("update"));
   }
-  public void GoToHomePage(){
-    click(By.linkText("home"));
-  }
+
   public void EditContactClick(){
     click(By.xpath("//img[@alt='Edit']"));
   }
