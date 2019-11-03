@@ -7,7 +7,10 @@ public class DeleteGroup extends TestBase{
 
   @Test
   public void groupDeleting() {
-   app.getNavigationHelper().groupsOpening();
+    app.getNavigationHelper().groupsOpening();
+   if(! app.getGroupHelper().isThereAGroup()){
+     app.getGroupHelper().createGroup(null);
+   }
     app.getGroupHelper().selectGroup();
     app.getGroupHelper().deleteSelectedGroups();
     app.getGroupHelper().returnToGroupPage();
