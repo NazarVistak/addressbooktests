@@ -47,4 +47,13 @@ public class ContactHelper extends HelperBase {
   public void EditContactClick(){
     click(By.xpath("//img[@alt='Edit']"));
   }
+
+  public void CheckMarkContact(){
+    click(By.linkText("addressbook/"));
+    click(By.id("2"));
+  }
+  public void DeleteContactClick(){
+    click(By.cssSelector(".left:nth-child(8) > input"));
+
+  }
 }
