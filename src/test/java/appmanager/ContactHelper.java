@@ -52,7 +52,7 @@ public class ContactHelper extends HelperBase {
   }
 
   public void CheckMarkContact(){
-    
+
     click(By.name("selected[]"));
   }
   public void DeleteContactClick(){
@@ -63,5 +63,14 @@ public class ContactHelper extends HelperBase {
 
     assertThat(driver.switchTo().alert().getText(), is("Delete 1 addresses?"));
     driver.switchTo().alert().accept();
+  }
+  public void CreateContact(){
+    CreateContactClick();
+    FillAllRequiredFields("TestNazar","TestVistak","+390425454254","testvistak@gmail.com","test1", true);
+    SubmitContactCreation();
+    ReturnToHomePage();
+  }
+  public boolean isThereAContact() {
+    return isElementPresent(By.name("selected[]"));
   }
 }
