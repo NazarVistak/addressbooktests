@@ -5,6 +5,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
+import static org.hamcrest.CoreMatchers.*;
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
 
 public class ContactHelper extends HelperBase {
 
@@ -49,11 +52,16 @@ public class ContactHelper extends HelperBase {
   }
 
   public void CheckMarkContact(){
-    click(By.linkText("addressbook/"));
-    click(By.id("2"));
+    
+    click(By.name("selected[]"));
   }
   public void DeleteContactClick(){
     click(By.cssSelector(".left:nth-child(8) > input"));
 
+  }
+  public void AcceptContactDeleting(){
+
+    assertThat(driver.switchTo().alert().getText(), is("Delete 1 addresses?"));
+    driver.switchTo().alert().accept();
   }
 }

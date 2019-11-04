@@ -36,7 +36,7 @@ public class ApplicationManager {
       driver = new InternetExplorerDriver();
     }
 
-    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     js = (JavascriptExecutor) driver;
     vars = new HashMap<String, Object>();
     driver.get("http://localhost/");
