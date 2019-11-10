@@ -24,6 +24,11 @@ public class DeleteGroup extends TestBase{
     Assert.assertEquals(after.size() ,  before.size() - 1);
     System.out.println("Number of groups BEFORE = " + before);
     System.out.println("Number of groups AFTER = " + after);
+
+    before.remove(before.size() - 1);
+    Assert.assertEquals(before, after);
+
   }
 
 }
+
