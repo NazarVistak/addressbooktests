@@ -3,6 +3,7 @@ import appmanager.GroupData;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.HashSet;
 import java.util.List;
 
 public class CreateGroup extends TestBase{
@@ -11,11 +12,22 @@ public class CreateGroup extends TestBase{
   public void groupCreation() {
     app.getNavigationHelper().groupsOpening();
     List<GroupData> before = app.getGroupHelper().getGroupList();
-    app.getGroupHelper().createGroup(null);
+    GroupData group = new GroupData("test1","test2", "test3");
+    app.getGroupHelper().createGroup(group);
     List<GroupData> after = app.getGroupHelper().getGroupList();
     Assert.assertEquals(after.size() ,  before.size() + 1);
       System.out.println("Number of groups BEFORE = " + before);
       System.out.println("Number of groups AFTER = " + after);
+
+      int max = 0;
+      for (GroupData g : after){
+       if (g.getId() > max){
+         max = g.getId();
+       }
+      }
+      group.setId(max);
+    before.add(group);
+    Assert.assertEquals(new HashSet<Object>(before),new HashSet<Object>(after));
   }
 
 }

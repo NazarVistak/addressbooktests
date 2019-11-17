@@ -47,9 +47,9 @@ public class GroupHelper extends HelperBase {
     click(By.name("update"));
   }
 
-  public void createGroup(String group) {
+  public void createGroup(GroupData group) {
     createGroupClick();
-    fillingGroupName(group);
+    fillingGroupName("test1");
     submitGroupCreation();
     returnToGroupPage();
   }
@@ -67,7 +67,7 @@ public class GroupHelper extends HelperBase {
     List<WebElement> elements = driver.findElements(By.cssSelector("span.group"));
     for (WebElement element : elements){
       String name = element.getText();
-      String id = element.findElement(By.tagName("input")).getAttribute("value");
+      int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
       GroupData group = new GroupData(id,name,null,null);
       groups.add(group);
     }
