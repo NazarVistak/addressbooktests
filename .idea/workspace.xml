@@ -10,22 +10,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/appmanager/GroupHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/appmanager/GroupHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/CreateGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/CreateGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/DeleteGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/DeleteGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/ModificationGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/ModificationGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.ModificationGroup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.CreateGroup.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.CreateGroup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.ModificationGroup.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/appmanager/GroupData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appmanager/GroupData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/appmanager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appmanager/GroupHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/CreateGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreateGroup.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
