@@ -3,6 +3,7 @@ import appmanager.GroupData;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.List;
 
@@ -18,8 +19,8 @@ public class ModificationGroup extends TestBase {
   List<GroupData> before = app.getGroupHelper().getGroupList();
   app.getGroupHelper().selectGroup(before.size() - 1);
   app.getGroupHelper().initGroupModification();
-  GroupData group = new GroupData(before.get(before.size() - 1).getId(),"test","test1","test2");
-  app.getGroupHelper().fillingGroupName("test");
+  GroupData group = new GroupData(before.get(before.size() - 1).getId(),"test",null,null);
+  app.getGroupHelper().fillingGroupName(group);
   app.getGroupHelper().submitGroupModification();
   app.getGroupHelper().returnToGroupPage();
 
@@ -30,6 +31,12 @@ public class ModificationGroup extends TestBase {
 
   before.remove(before.size() - 1);
   before.add(group);
-  Assert.assertEquals(new HashSet<Object>(before),new HashSet<Object>(after));
+
+  Comparator<? super GroupData> byId = (g1 , g2) -> Integer.compare(g1.getId() , g2.getId());
+  before.sort(byId);
+  after.sort(byId);
+
+//  Assert.assertEquals(new HashSet<Object>(before),new HashSet<Object>(after));
+  Assert.assertEquals(before, after);
 }
 }

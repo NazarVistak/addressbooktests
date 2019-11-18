@@ -5,7 +5,7 @@ import tests.ModificationGroup;
 import java.util.Objects;
 
 public class GroupData  {
-  private  int id;
+  private int id;
   private final String name;
   private final String header;
   private final String footer;
@@ -16,7 +16,7 @@ public class GroupData  {
     this.header = header;
     this.footer = footer;
   }
-    public GroupData(String name, String header, String footer) {
+  public GroupData(String name, String header, String footer) {
       this.id = 0;
       this.name = name;
       this.header = header;

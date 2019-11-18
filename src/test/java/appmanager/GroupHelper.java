@@ -21,8 +21,8 @@ public class GroupHelper extends HelperBase {
     click(By.name("submit"));
   }
 
-  public void fillingGroupName(String name) {
-    type(By.name("group_name"), name);
+  public void fillingGroupName(GroupData group) {
+    type(By.name("group_name"), group.getName());
   }
 
   public void createGroupClick() {
@@ -49,7 +49,7 @@ public class GroupHelper extends HelperBase {
 
   public void createGroup(GroupData group) {
     createGroupClick();
-    fillingGroupName("test1");
+    fillingGroupName(group);
     submitGroupCreation();
     returnToGroupPage();
   }
