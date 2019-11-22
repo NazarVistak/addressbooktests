@@ -10,19 +10,20 @@ import java.util.List;
 public class ModificationGroup extends TestBase {
   @BeforeTest
   public void ensurePreconditions() {
-    app.getNavigationHelper().groupsOpening();
-    if (!app.getGroupHelper().isThereAGroup()) {
-      app.getGroupHelper().createGroup(null);
+    app.goTo().groupPage();
+    if (app.group().list().size() == 0) {
+      app.group().create(new GroupData().withName("test1"));
     }
   }
   @Test
   public void testGroupModification(){
 
-  List<GroupData> before = app.getGroupHelper().getGroupList();
+  List<GroupData> before = app.group().list();
   int index = before.size() - 1;
-  GroupData group = new GroupData(before.get(index).getId(),"test",null,null);
-  app.getGroupHelper().modifyGroup(index, group);
-  List<GroupData> after = app.getGroupHelper().getGroupList();
+  GroupData group = new GroupData()
+          .withId(before.get(index).getId()).withName("test").withHeader(null).withFooter(null);
+  app.group().modify(index, group);
+  List<GroupData> after = app.group().list();
   Assert.assertEquals(after.size() ,  before.size());
   System.out.println("Number of groups BEFORE = " + before);
   System.out.println("Number of groups AFTER = " + after);
