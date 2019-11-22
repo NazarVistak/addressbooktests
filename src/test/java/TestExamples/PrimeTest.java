@@ -1,5 +1,6 @@
-package tests;
+package TestExamples;
 
+import TestExamples.Primes;
 import org.junit.Ignore;
 import org.testng.Assert;
 

@@ -13,7 +13,6 @@ public class SessionHelper extends HelperBase {
   }
   public void login(String username, String password) {
     driver.manage().window().setSize(new Dimension(1050, 840));
-    driver.findElement(By.linkText("addressbook/")).click();
     type(By.name("user"), username);
     type(By.name("pass"), password);
 

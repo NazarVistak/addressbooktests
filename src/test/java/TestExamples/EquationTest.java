@@ -1,5 +1,6 @@
-package tests;
+package TestExamples;
 
+import TestExamples.Equation;
 import org.testng.Assert;
 import org.junit.Test;
 

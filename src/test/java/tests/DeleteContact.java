@@ -1,11 +1,10 @@
 package tests;
 
-
-import org.junit.Test;
-
+import org.testng.annotations.Test;
 
 public class DeleteContact extends TestBase {
-  @Test
+
+  @Test(enabled = false)
   public void testContactDeletion(){
     if(! app.getContactHelper().isThereAContact()) {
       app.getContactHelper().CreateContact();

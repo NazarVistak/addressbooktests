@@ -39,7 +39,7 @@ public class ApplicationManager {
     driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     js = (JavascriptExecutor) driver;
     vars = new HashMap<String, Object>();
-    driver.get("http://localhost/");
+    driver.get("http://localhost/addressbook/");
     groupHelper = new GroupHelper(driver);
     navigationHelper = new NavigationHelper(driver);
     contactHelper = new ContactHelper(driver);

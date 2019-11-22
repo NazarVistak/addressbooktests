@@ -1,7 +1,8 @@
 package tests;
 import appmanager.GroupData;
-import org.junit.Assert;
-import org.junit.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
 
 import java.util.Comparator;
 import java.util.HashSet;
@@ -36,7 +37,6 @@ public class ModificationGroup extends TestBase {
   before.sort(byId);
   after.sort(byId);
 
-//  Assert.assertEquals(new HashSet<Object>(before),new HashSet<Object>(after));
   Assert.assertEquals(before, after);
 }
 }

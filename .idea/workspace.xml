@@ -8,20 +8,51 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/appmanager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/appmanager/ApplicationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/appmanager/ContactHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/appmanager/ContactHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/appmanager/GroupData.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/appmanager/GroupData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/appmanager/GroupHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/appmanager/GroupHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/appmanager/SessionHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/appmanager/SessionHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/Collections.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/CreateContact.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/CreateContact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/CreateGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/CreateGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/DeleteContact.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/DeleteContact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/DeleteGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/DeleteGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/Equality.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/Equation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/EquationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/ModificateContact.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/ModificateContact.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/ModificationGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/ModificationGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.CreateGroup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/PrimeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/Primes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.ModificationGroup.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.ModificationGroup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.ModificationGroup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-tests.ModificationGroup.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appmanager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appmanager/ContactHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/appmanager/GroupData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appmanager/GroupData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/appmanager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appmanager/GroupHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/appmanager/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appmanager/SessionHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Collections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestExamples/Collections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CreateContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreateContact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CreateGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreateGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DeleteContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DeleteContact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DeleteGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DeleteGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Equality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestExamples/Equality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Equation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestExamples/Equation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/EquationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestExamples/EquationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ModificateContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ModificateContact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/ModificationGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ModificationGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PrimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestExamples/PrimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Primes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestExamples/Primes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,26 +104,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.ModificationGroup">
-    <configuration name="Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tests.Collections" />
-      <module name="addressbooktestsartifact.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateGroup" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Tests in 'tests'">
+    <configuration name="CreateContact" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;tests.CreateGroup&quot;" />
+        <option name="scriptParameters" value="--tests &quot;tests.CreateContact&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -107,12 +125,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DeleteGroup" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CreateGroup" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;tests.DeleteGroup&quot;" />
+        <option name="scriptParameters" value="--tests &quot;tests.CreateGroup&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -147,12 +165,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PrimeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestBase" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;tests.PrimeTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;tests.TestBase&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'tests'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;tests.*&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -169,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ModificationGroup" />
+        <item itemvalue="Gradle.Tests in 'tests'" />
         <item itemvalue="Gradle.CreateGroup" />
-        <item itemvalue="Gradle.DeleteGroup" />
-        <item itemvalue="Application.Collections" />
-        <item itemvalue="Gradle.PrimeTest" />
+        <item itemvalue="Gradle.TestBase" />
+        <item itemvalue="Gradle.CreateContact" />
+        <item itemvalue="Gradle.ModificationGroup" />
       </list>
     </recent_temporary>
   </component>

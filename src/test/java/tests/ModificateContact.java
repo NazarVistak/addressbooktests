@@ -1,9 +1,11 @@
 package tests;
 
-import org.junit.Test;
+
+import org.testng.annotations.Test;
 
 public class ModificateContact extends TestBase {
-  @Test
+
+  @Test(enabled = false)
   public void testContactModification(){
     if(! app.getContactHelper().isThereAContact()) {
       app.getContactHelper().CreateContact();

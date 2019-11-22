@@ -1,21 +1,24 @@
 package tests;
 
 import appmanager.ApplicationManager;
-import org.junit.After;
-import org.junit.Before;
+
+
 import org.openqa.selenium.remote.BrowserType;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+
 
 public class TestBase {
 
-  protected final ApplicationManager app = new ApplicationManager(BrowserType.FIREFOX);
+  protected static final ApplicationManager app = new ApplicationManager(BrowserType.CHROME);
 
-  @Before
-  public void setUp() {
+  @BeforeSuite
+  public static void setUp() {
     app.init();
   }
 
-  @After
-  public void tearDown() {
+  @AfterSuite
+  public static void tearDown() {
     app.stop();
   }
 
