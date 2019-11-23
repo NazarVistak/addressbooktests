@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.ModificationGroup" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-22T11:26:24" hostname="DESKTOP-OH2EBC8" time="13.22">
-  <properties/>
-  <testcase name="testGroupModification" classname="tests.ModificationGroup" time="13.22"/>
-  <system-out><![CDATA[Number of groups BEFORE = [GroupData{id='23', name=''}, GroupData{id='24', name=''}, GroupData{id='26', name=''}, GroupData{id='25', name='test'}, GroupData{id='27', name='test1'}, GroupData{id='28', name='test1'}, GroupData{id='30', name='test1'}, GroupData{id='31', name='test1'}, GroupData{id='32', name='test1'}, GroupData{id='34', name='test1'}, GroupData{id='36', name='test1'}, GroupData{id='37', name='test1'}]
-Number of groups AFTER = [GroupData{id='23', name=''}, GroupData{id='24', name=''}, GroupData{id='26', name=''}, GroupData{id='25', name='test'}, GroupData{id='27', name='test1'}, GroupData{id='28', name='test1'}, GroupData{id='30', name='test1'}, GroupData{id='31', name='test1'}, GroupData{id='32', name='test1'}, GroupData{id='34', name='test1'}, GroupData{id='36', name='test1'}, GroupData{id='37', name='test1test'}]
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
