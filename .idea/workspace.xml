@@ -4,6 +4,9 @@
     <list default="true" id="242831aa-6a23-43e9-b44e-68c294839261" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/appmanager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appmanager/GroupHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CreateGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreateGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DeleteGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DeleteGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ModificationGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ModificationGroup.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.DeleteGroup">
+  <component name="RunManager" selected="Gradle.CreateGroup">
     <configuration name="CreateContact" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -158,8 +161,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DeleteGroup" />
         <item itemvalue="Gradle.CreateGroup" />
+        <item itemvalue="Gradle.DeleteGroup" />
         <item itemvalue="Gradle.Tests in 'tests'" />
         <item itemvalue="Gradle.TestBase" />
         <item itemvalue="Gradle.CreateContact" />

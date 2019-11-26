@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.DeleteGroup" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-25T17:46:56" hostname="DESKTOP-OH2EBC8" time="7.885">
-  <properties/>
-  <testcase name="groupDeleting" classname="tests.DeleteGroup" time="7.885"/>
-  <system-out><![CDATA[Number of groups BEFORE = [GroupData{id='38', name='test1'}, GroupData{id='24', name=''}, GroupData{id='23', name=''}, GroupData{id='25', name='test'}, GroupData{id='34', name='test1'}, GroupData{id='37', name='test1test'}, GroupData{id='36', name='test1'}, GroupData{id='30', name='test1'}, GroupData{id='32', name='test1'}, GroupData{id='31', name='test1'}, GroupData{id='28', name='test1'}, GroupData{id='27', name='test1'}]
-Number of groups AFTER = [GroupData{id='30', name='test1'}, GroupData{id='32', name='test1'}, GroupData{id='31', name='test1'}, GroupData{id='28', name='test1'}, GroupData{id='27', name='test1'}, GroupData{id='24', name=''}, GroupData{id='23', name=''}, GroupData{id='25', name='test'}, GroupData{id='34', name='test1'}, GroupData{id='37', name='test1test'}, GroupData{id='36', name='test1'}]
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

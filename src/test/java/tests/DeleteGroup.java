@@ -28,8 +28,8 @@ public class DeleteGroup extends TestBase{
     Groups before = app.group().all();
     GroupData deletedGroup = before.iterator().next();
     app.group().delete(deletedGroup);
+    assertThat(app.group().count(), equalTo(before.size() - 1));
     Groups after = app.group().all();
-    assertEquals(after.size() ,  before.size() - 1);
     System.out.println("Number of groups BEFORE = " + before);
     System.out.println("Number of groups AFTER = " + after);
     assertThat(after, equalTo(before.without(deletedGroup)));
